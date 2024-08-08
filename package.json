@@ -1,0 +1,28 @@
+{
+  "name": "semafor-lang",
+  "version": "1.0.0",
+  "description": "Semafor is a minimalistic Turing-complete esoteric programming language.",
+  "main": "semafor.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttulka/semafor.git"
+  },
+  "keywords": [
+    "semafor",
+    "esolang",
+    "programming-language",
+    "js"
+  ],
+  "author": "Tomas Tulka (ttulka)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttulka/semafor/issues"
+  },
+  "homepage": "https://github.com/ttulka/semafor#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
