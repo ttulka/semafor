@@ -11,8 +11,8 @@ The interpretation of the instructions depends on the state of the *semaphore*
 | -------- | --------- | ------- |
 | `%`      | *green*   | flip to *red* |
 | `%`      | *red*     | flip to *green* |
-| `!`      | *green*   | move to the register on right |
-| `!`      | *red*     | move to the register on left |
+| `!`      | *green*   | move to the register on the right |
+| `!`      | *red*     | move to the register on the left |
 | `+`      | *green*   | increment the value of the current register |
 | `+`      | *red*     | decrement the value of the current register |
 | *number* | *green*   | jump *number* instructions to the right if the current register is zero |
