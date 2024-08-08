@@ -122,7 +122,7 @@ npm i semafor-lang
 ```js
 const semafor = require('semafor-lang')
 
-// [0, 55, 1]
+// [55, 0, 0]
 semafor(`!!%%!!9%+!%+%!11%`, [42, 13, 0])
 ```
 
