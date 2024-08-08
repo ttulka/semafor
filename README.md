@@ -62,8 +62,6 @@ Adds the values from the first and second registers together and stores the resu
 
 ### Hello World
 
-### Hello World
-
 For computing "Hello World" the numbers in the registers must be interpreted as letters.
  It can achieved by defining a simple alphabet:
 
