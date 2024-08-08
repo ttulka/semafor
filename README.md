@@ -7,16 +7,16 @@ The interpretation of the instructions depends on the state of the *semaphore*
  which can be either  *green* or *red*.
  The default state at the beginning of the runtime is *green*.
 
-| Instr.   | Semaphor | Meaning |
-| -------- | -------- | ------- |
-| `%`      | *green*  | flip to *red* |
-| `%`      | *red*    | flip to *green* |
-| `!`      | *green*  | move to the register on right |
-| `!`      | *red*    | move to the register on left |
-| `+`      | *green*  | increment the value of the current register |
-| `+`      | *red*    | decrement the value of the current register |
-| *number* | *green*  | jump *number* instructions to the right if the current register is zero |
-| *number* | *red*    | jump *number* instructions to the left if the current register is zero |
+| Instr.   | Semaphore | Meaning |
+| -------- | --------- | ------- |
+| `%`      | *green*   | flip to *red* |
+| `%`      | *red*     | flip to *green* |
+| `!`      | *green*   | move to the register on right |
+| `!`      | *red*     | move to the register on left |
+| `+`      | *green*   | increment the value of the current register |
+| `+`      | *red*     | decrement the value of the current register |
+| *number* | *green*   | jump *number* instructions to the right if the current register is zero |
+| *number* | *red*     | jump *number* instructions to the left if the current register is zero |
 
 Anything other than the instructions is not allowed in the source code.
 
