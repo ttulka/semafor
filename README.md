@@ -60,6 +60,22 @@ Adds the values from the first and second registers together and stores the resu
 !!%%!!9%+!%+%!11%
 ```
 
+Explanation:
+
+```semafor
+!!%%!   Moving three times as well as flipping two times is a no-op
+        It's a trick to get to an arbitrary state after jumping later
+!       Move to the second reg
+9       If zero, jump to the program end
+%+      Decrement (red)
+!       Back to the first reg (red)
+%+      Increment (green)
+%!      Move left from the first reg to the third reg (red)
+11      Jump back to the fourth instruction (the third reg is always zero)
+        It will flip back to green and move from the third reg back to the first reg
+%       Program end
+```
+
 ### Hello World
 
 For computing "Hello World" the numbers in the registers must be interpreted as letters.
