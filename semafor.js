@@ -4,7 +4,7 @@ const interpret = (program, memory, maxSteps, onStep) => {
     const m = Array.isArray(memory)  // memory (registers)
                 ? [memory[0] ? memory[0]-0 : 0, memory[1] ? memory[1]-0 : 0, memory[2] ? memory[2]-0 : 0] 
                 : [0, 0, 0]
-    const ms = maxSteps > 0 ? maxSteps : 10000 // TODO set to 0
+    const ms = maxSteps > 0 ? maxSteps : 0
 
     let pc = 0   // program counter
     let rc = 0   // register counter

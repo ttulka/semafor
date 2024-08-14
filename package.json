@@ -1,6 +1,6 @@
 {
   "name": "semafor-lang",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "description": "Semafor is a minimalistic Turing-complete esoteric programming language.",
   "main": "semafor.js",
   "scripts": {
