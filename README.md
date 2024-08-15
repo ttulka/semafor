@@ -122,8 +122,8 @@ Using the semaphore is a trick to keep the instruction set small.
 - `!<` (move left)
 - `++` (increment)
 - `+-` (decrement)
-- +*n* (jump right)
-- -*n* (jump left)
+- +*n* (jump right if zero)
+- -*n* (jump left if zero)
 
 Using the relative number of instructions to determine the jump target eliminates the need for an argument in the JZ instruction, which otherwise requires an absolute instruction position.
 
